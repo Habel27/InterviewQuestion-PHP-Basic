@@ -1,0 +1,60 @@
+
+/* Center the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Put border for the input container */
+  .container {
+    border: 1px solid black;
+    padding: 20px 30px;
+    text-align: left;
+  }
+  
+  /* label */
+  label {
+    display: inline-block;
+    width: 90px;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: none;
+  }
+
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+  }
+  
+  button {
+    background-color: #8bc34a;
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  /* the color of button change if cursor lay on the button */
+  button:hover {
+    background-color: #7cb342;
+  }
+ /* message below button */ 
+  #message {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #4caf50;
+  }
